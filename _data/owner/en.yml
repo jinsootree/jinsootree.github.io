@@ -2,24 +2,24 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "jinsootree"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "$site_안녕하세요"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "Yoon jinsoo"
 
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "$site_welcome"
+  top_header_line1: "$site_Hello"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand"
+  top_header_line2: "$site_jinsootree의 저장공간"
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "안녕하세요"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -48,7 +48,7 @@ meta_common_description: "Your meta description."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
+  - github: "https://github.com/jinsootree"
   #- email: ""
   #- linkedin: ""
   #- twitter: ""
@@ -59,7 +59,7 @@ contacts:
 #  - your_new_contact: ""
 
 # Disqus Short name, make sure comments and disqus are enabled in _data/conf/posts.yml file
-disqus_shortname: ""
+disqus_shortname: "jinsootree"
 
 # if no id is provided, this feature will be disabled.
 # make sure your environment does not match with google.analytics.ignore in _data/conf/main.yml
